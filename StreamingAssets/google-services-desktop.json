@@ -1,0 +1,442 @@
+{
+  "project_info": {
+    "project_number": "941626278825",
+    "project_id": "dragon-studio-2bd49",
+    "storage_bucket": "dragon-studio-2bd49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:d8885fd4afc794d11b3ab8",
+        "android_client_info": {
+          "package_name": "com.dg.stick.merge.battle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:18f6acba71d70cdf1b3ab8",
+        "android_client_info": {
+          "package_name": "com.dra.jackal.survival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:7faeaa69ac63510f1b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.basket.ball.battle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:975bc811b7ae5e701b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.cuthalf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:26247099c6601e641b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.dichead.survival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:73dea911b8df1b4a1b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.jackal.merge.defense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:1b458d4620ced81c1b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.merge.jackal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:71d0b0e57ae823221b3ab8",
+        "android_client_info": {
+          "package_name": "com.drag.toilet.rush.troll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:b47502c07feb3bcc1b3ab8",
+        "android_client_info": {
+          "package_name": "com.jackal.drag.survival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:08902ec923ea77891b3ab8",
+        "android_client_info": {
+          "package_name": "com.slice.rescue.dg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:8437138c1027e3ed1b3ab8",
+        "android_client_info": {
+          "package_name": "com.toilet.park.dg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941626278825:android:d0495bbc0c0b341e1b3ab8",
+        "android_client_info": {
+          "package_name": "com.trident.master.dg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGGgFmlLa6DaT7STiKdICXDSd4scftcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941626278825-ehormn4b6lc1en5e6o7qc35vmke68m6o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941626278825-jsuq78jg6jpni03m88bt2tqtsfma3ldp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dra.jackal.survival"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
