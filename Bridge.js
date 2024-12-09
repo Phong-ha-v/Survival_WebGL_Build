@@ -9,7 +9,9 @@ function getRefCode() {
 
       if (urlHash) {
         const encodedData = urlHash.slice(1);
+        console.log("GetRefCode_EncodedData",encodedData);
         const data = encodedData.split("&");
+        console.log("GetRefCode_Data",data);
         const tgWebAppData = decodeURIComponent(
           data[0].split("tgWebAppData=")[1]
         );
