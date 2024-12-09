@@ -67,7 +67,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Defaut Company",
         productName: "Survival Game",
-        productVersion: "0.4",
+        productVersion: "0.5",
         showBanner: unityShowBanner,
       };
 
@@ -119,7 +119,7 @@
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
                 fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
+                  document.makeFullscreen('unity-container');
                 };
               }).catch((message) => {
                 alert(message);
