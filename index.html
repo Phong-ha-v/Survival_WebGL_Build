@@ -19,7 +19,7 @@
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-footer">
+      <div id="unity-footer", style="display: none;">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Survival Game</div>
@@ -135,17 +135,34 @@
             margin: 0;
             overflow: hidden;
         }
+        #unity-container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         canvas {
             display: block;
-            width: 100vw;
-            height: 100vh;
+            /* width: 100vw;
+            height: 100vh; */
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            max-width: 420px;
+            max-height: 639px;
         }
     </style>
     <script>
+        // function resizeCanvas() {
+        //     var canvas = document.getElementById('unity-canvas');
+        //     canvas.style.width = window.innerWidth + "px";
+        //     canvas.style.height = window.innerHeight + "px";
+        // }
         function resizeCanvas() {
-            var canvas = document.getElementById('unity-canvas');
-            canvas.style.width = window.innerWidth + "px";
-            canvas.style.height = window.innerHeight + "px";
+          const canvas = document.querySelector("#unity-canvas");
+          canvas.style.width = "100%";
+          canvas.style.height = "100%";
         }
         window.addEventListener('resize', resizeCanvas);
         window.addEventListener('load', resizeCanvas);
