@@ -3,6 +3,9 @@ function getQueryParams() {
     const params = new URLSearchParams(window.location.hash.substring(1));
     return params.get("tgWebAppData");
 };
+function getCurrentUrl() {
+  return window.location.href;
+}
 function getRefCode() {
     const urlHash = window.location.hash;
     const textSearch = window.location.search;
