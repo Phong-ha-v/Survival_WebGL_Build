@@ -7,10 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <!-- <script src="./Bridge.js"></script> -->
-    <link rel="stylesheet" href="TemplateData/diagnostics.css">
-    <script src="TemplateData/diagnostics.js"></script>
-
-
 
   </head>
   <body>
@@ -26,7 +22,6 @@
       <div id="unity-footer", style="display: none;">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <img id="diagnostics-icon" src="TemplateData/webmemd-icon.png">
         <div id="unity-build-title">Survival Game</div>
       </div>
     </div>
@@ -39,7 +34,6 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
-      var diagnostics_icon = document.getElementById("diagnostics-icon");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -108,11 +102,6 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        // position the diagnostics icon in the corner on the canvas
-        diagnostics_icon.style.position = "fixed";
-        diagnostics_icon.style.bottom = "10px";
-        diagnostics_icon.style.right = "0px";
-        canvas.after(diagnostics_icon);
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
@@ -130,9 +119,6 @@
           progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 loadingBar.style.display = "none";
-                diagnostics_icon.onclick = () => {
-                  unityDiagnostics.openDiagnosticsDiv(unityInstance.GetMemoryInfo);
-                };
                 fullscreenButton.onclick = () => {
                   document.makeFullscreen('unity-container');
                 };
