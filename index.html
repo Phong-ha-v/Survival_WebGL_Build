@@ -218,12 +218,11 @@
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
-        function logFirebaseEvent(eventName, parameterName, parameterValue) {
-        firebase.analytics().logEvent(eventName, {
-            [parameterName]: parameterValue
-        });
-        console.log(`Event logged: ${eventName}, ${parameterName}: ${parameterValue}`);
-    }
+      function logFirebaseEvent(eventName, parameters) {
+    const params = JSON.parse(parameters); // Chuyển từ JSON sang object
+    firebase.analytics().logEvent(eventName, params);
+    console.log(`Event logged: ${eventName}, Parameters:`, params);
+}
     </script>
 </body>
 </html>
