@@ -42,6 +42,8 @@
         measurementId: "G-LND9F5Q6L7",
       };
     
+      const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-LND9F5Q6L7&api_secret=wbDkYxOtRpu8DXNgcr4CIg`;
+
       // Initialize Firebase
     
       const app = window.firebase.initializeApp(firebaseConfig);
@@ -56,17 +58,12 @@
         console.log(`Event logged: ${eventName}`);
         console.log('Parameters:', JSON.parse(eventParams));
         analytics.logEvent(eventName, JSON.parse(eventParams));
-    };
-    const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-LND9F5Q6L7&api_secret=AIzaSyDUvhTV1uOq2n8jLnmFCqUnKDeW1u988Ig`;
-
-const payload = {
-  client_id: "1:240772798521:web:e241d1fa8757fa8074d5e8",
+        var payload = {
+          client_id: "Test ID",
   events: [
     {
-      name: "test_event",
-      params: {
-        param1: "value1"
-      }
+      name: eventName,
+      params: eventParams
     }
   ]
 };
@@ -79,6 +76,8 @@ fetch(firebaseEndpoint, {
   body: JSON.stringify(payload)
 }).then(response => console.log("Event sent!", response))
   .catch(error => console.error("Failed to send event:", error));
+    };
+
     </script>
     <!-- <script type="module">
       // Import the functions you need from the SDKs you need
