@@ -54,12 +54,12 @@
       });
       firebase.analytics().setAnalyticsCollectionEnabled(true);
       console.log("Firebase Initialized");
-      function _logFirebaseEvent(eventName, eventParams) {
+      function _logFirebaseEvent(userId, eventName, eventParams) {
         console.log(`Event logged: ${eventName}`);
         console.log('Parameters:', JSON.parse(eventParams));
         analytics.logEvent(eventName, JSON.parse(eventParams));
         var payload = {
-          client_id: "Test ID",
+          client_id: userId,
   events: [
     {
       name: eventName,
