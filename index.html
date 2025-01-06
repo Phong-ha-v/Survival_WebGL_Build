@@ -40,25 +40,27 @@
         messagingSenderId: "240772798521",
         appId: "1:240772798521:web:e241d1fa8757fa8074d5e8",
         measurementId: "G-LND9F5Q6L7",
-        allowAdPersonalizationSignals: true,
-        allowIframe: true
       };
     
       // Initialize Firebase
     
       const app = window.firebase.initializeApp(firebaseConfig);
       const analytics = window.firebase.analytics(app);
+      firebase.analytics().settings({
+        allowAdPersonalizationSignals: true,
+        allowIframe: true
+      });
+      firebase.analytics().setAnalyticsCollectionEnabled(true);
       console.log("Firebase Initialized");
-
       function _logFirebaseEvent(eventName, eventParams) {
         console.log(`Event logged: ${eventName}`);
         console.log('Parameters:', JSON.parse(eventParams));
         analytics.logEvent(eventName, JSON.parse(eventParams));
     };
-    const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-XXXXXXX&api_secret=YOUR_API_SECRET`;
+    const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-LND9F5Q6L7&api_secret=AIzaSyDUvhTV1uOq2n8jLnmFCqUnKDeW1u988Ig`;
 
 const payload = {
-  client_id: "CLIENT_ID",
+  client_id: "1:240772798521:web:e241d1fa8757fa8074d5e8",
   events: [
     {
       name: "test_event",
