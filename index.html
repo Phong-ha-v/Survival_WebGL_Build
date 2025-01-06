@@ -9,8 +9,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@telegram-apps/sdk@2.11.0/dist/index.iife.min.js"></script>
     <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@3.0.5/dist/tonconnect-sdk.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics-compat.js"></script>
     <!-- <script src="./Bridge.js"></script> -->
 
 </head>
@@ -31,53 +29,29 @@
         </div>
     </div>
     <script>
-      // Cấu hình Firebase
-      const firebaseConfig = {
-        apiKey: "AIzaSyDUvhTV1uOq2n8jLnmFCqUnKDeW1u988Ig",
-        authDomain: "test-survival-tele.firebaseapp.com",
-        projectId: "test-survival-tele",
-        storageBucket: "test-survival-tele.firebaseapp.com",
-        messagingSenderId: "240772798521",
-        appId: "1:240772798521:web:e241d1fa8757fa8074d5e8",
-        measurementId: "G-LND9F5Q6L7",
-      };
-    
       const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-LND9F5Q6L7&api_secret=wbDkYxOtRpu8DXNgcr4CIg`;
-
-      // Initialize Firebase
-    
-      const app = window.firebase.initializeApp(firebaseConfig);
-      const analytics = window.firebase.analytics(app);
-      firebase.analytics().settings({
-        allowAdPersonalizationSignals: true,
-        allowIframe: true
-      });
-      firebase.analytics().setAnalyticsCollectionEnabled(true);
-      console.log("Firebase Initialized");
       function _logFirebaseEvent(userId, eventName, eventParams) {
         console.log(`Event logged: ${eventName}`);
         console.log('Parameters:', JSON.parse(eventParams));
-        analytics.logEvent(eventName, JSON.parse(eventParams));
         var payload = {
           client_id: userId,
-  events: [
-    {
-      name: eventName,
-      params: eventParams
-    }
-  ]
-};
-
-fetch(firebaseEndpoint, {
-  method: "POST",
-  mode: "no-cors",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify(payload)
-}).then(response => console.log("Event sent!", response))
-  .catch(error => console.error("Failed to send event:", error));
-    };
+          events: [
+            {
+              name: eventName,
+              params: eventParams
+            }
+                  ]
+          };
+        fetch(firebaseEndpoint, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(payload)
+          }).then(response => console.log("Event sent!", response))
+          .catch(error => console.error("Failed to send event:", error));
+      };
 
     </script>
     <!-- <script type="module">
