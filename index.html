@@ -39,7 +39,9 @@
         storageBucket: "test-survival-tele.firebaseapp.com",
         messagingSenderId: "240772798521",
         appId: "1:240772798521:web:e241d1fa8757fa8074d5e8",
-        measurementId: "G-LND9F5Q6L7"
+        measurementId: "G-LND9F5Q6L7",
+        allowAdPersonalizationSignals: true,
+        allowIframe: true
       };
     
       // Initialize Firebase
@@ -53,6 +55,28 @@
         console.log('Parameters:', JSON.parse(eventParams));
         analytics.logEvent(eventName, JSON.parse(eventParams));
     };
+    const firebaseEndpoint = `https://www.google-analytics.com/mp/collect?measurement_id=G-XXXXXXX&api_secret=YOUR_API_SECRET`;
+
+const payload = {
+  client_id: "CLIENT_ID",
+  events: [
+    {
+      name: "test_event",
+      params: {
+        param1: "value1"
+      }
+    }
+  ]
+};
+
+fetch(firebaseEndpoint, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(payload)
+}).then(response => console.log("Event sent!", response))
+  .catch(error => console.error("Failed to send event:", error));
     </script>
     <!-- <script type="module">
       // Import the functions you need from the SDKs you need
