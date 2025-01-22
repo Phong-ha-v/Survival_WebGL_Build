@@ -7,9 +7,9 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@telegram-apps/sdk@2.11.0/dist/index.iife.min.js"></script>
-    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@3.0.5/dist/tonconnect-sdk.min.js"></script>
-    <!-- <script src="./Bridge.js"></script> -->
+    <!--<script src="https://sad.adsgram.ai/js/sad.min.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@3.0.5/dist/tonconnect-sdk.min.js"></script>-->
+     <script src="./bundle.js"></script> 
 
 </head>
 <body>
@@ -178,7 +178,7 @@
         (function () {
             var { retrieveLaunchParams, postEvent } = window.telegramApps.sdk;
             var lp = retrieveLaunchParams();
-            const color = "#0000FF"; 
+            const color = "#0000FF";
             postEvent('web_app_set_header_color', { color_key: color });
 
             // Some versions of Telegram don't need the classes above.
