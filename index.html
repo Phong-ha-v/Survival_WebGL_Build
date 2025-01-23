@@ -175,6 +175,41 @@
         window.addEventListener('resize', resizeCanvas);
         window.addEventListener('load', resizeCanvas);
     </script>
+    <script>
+      try {
+          const hash = window.location.hash;
+
+          // Kiểm tra xem hash có chứa tgWebAppData không
+          if (hash.includes("tgWebAppData")) {
+              console.log("tgWebAppData found in hash. Checking if script is already loaded...");
+
+              // Kiểm tra nếu script đã được tải
+              if (!document.querySelector("script[src='https://telegram.org/js/telegram-web-app.js']")) {
+                  console.log("Loading telegram-web-app.js...");
+
+                  // Tạo thẻ <script> để load file từ Telegram
+                  var telegramScript = document.createElement("script");
+                  telegramScript.src = "https://telegram.org/js/telegram-web-app.js";
+                  telegramScript.type = "text/javascript";
+                  telegramScript.async = true;
+
+                  // Append into head
+                  document.head.appendChild(telegramScript);
+
+                  telegramScript.onload = function () {
+                      console.log("telegram-web-app.js loaded successfully!");
+                      // Thực hiện các thao tác cần thiết với telegram-web-app.js tại đây
+                  };
+              } else {
+                  console.log("telegram-web-app.js is already loaded.");
+              }
+          } else {
+              console.log("tgWebAppData NOT found in hash. Script will not be loaded.");
+          }
+      } catch (error) {
+          console.error("An error occurred while checking the hash:", error);
+      }
+  </script>
 
     <script>
         (function () {
